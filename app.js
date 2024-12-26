@@ -176,3 +176,104 @@
 //     document.write("<h1>The subtraction of ", num1, " and ", num2, " is ", num1-num2)
 // }
 
+
+// Chapter 12
+
+//Question 1
+
+// let number = prompt("Enter any number or letter");
+// let asscivalue = number.charCodeAt(0);
+// if (asscivalue >= 65 && asscivalue<=90) {
+//     document.write("<h1>You have entered Capital Alphabet</h1>")
+// }
+// else if (asscivalue>=97 && asscivalue<=122) {
+//     document.write("<h1>You have enterred small alphabet</h1>")
+// }
+// else{
+//     document.write("<h1>You have entered number</h1>")
+// }
+
+//Question2
+
+// let num1 = prompt("Enter first number");
+// let num2 = prompt("Enter second number");
+
+// if (num1>num2) {
+//     document.write(num1, " is greater than ", num2)
+// }
+// else{
+//     document.write(num2, " is greater than ", num1)
+// }
+
+//Question3
+
+// let number = prompt("Enter your number");
+
+// if (number>0) {
+//     document.write("You have entered positive integer")
+// }
+// else if (number<0) {
+//     document.write("You have entered negative integer")
+// }
+// else{
+//     document.write("You have entered zero")
+// }
+
+//Question 4
+
+// let alpha = prompt("Enter an alphabet")
+
+// if (alpha=="a" || alpha=="e" || alpha=="i" || alpha=="o" || alpha=="u") {
+//     document.write("<h1>You have entered vowel</h1>")   
+// }
+// else{
+//     document.write("<h1>You have entered consonant</h1>")
+// }
+
+
+//Question 5
+
+// let password = prompt("Please enter your password")
+
+// let correctPassword = "Pakistan123"
+
+// if (password==correctPassword) {
+//     document.write("<h1>You have entered Correct Password</h1>")
+// }
+// else{
+//     document.write("<h1>You have entered Incorrect Password</h1>")
+// }
+
+
+//Question 6
+
+// var greeting;
+// var hour = 13;
+// if (hour < 18) {
+// greeting = "Good day";
+// }
+// else{
+// greeting = "Good evening";
+// }
+
+//Question 7
+
+// let time = parseInt(prompt("Enter your time in 24 hours format"))
+
+// if (time>=1200 && time<=2359) {
+//     document.write("<h1>Good Morning")
+// }
+// else if (time>=0 && time<1200) {
+//     document.write("<h1>Good Night")
+// }
+// else if (time>=600 && time<1200) {
+//     document.write("<h1>Good Morning")
+// }
+// else if (time>=1200 && time<1800) {
+//     document.write("<h1>Good Afternoon")
+// }
+// else if (time>=1800 && time<2359) {
+//     document.write("<h1>Good Evening")
+// }
+// else{
+
